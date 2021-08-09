@@ -13,10 +13,10 @@ configMapGenerator:
     - config/schema.sql
 
 resources:
-  - namespace.yaml
   - appconfig.yaml
   - db-pvc.yaml
   - db-secret.yaml
   - db-service.yaml
   - db-deployment.yaml
   - quarkus-secret.yaml
+  - kafka-consumer.yaml

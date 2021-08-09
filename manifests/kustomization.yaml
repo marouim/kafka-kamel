@@ -20,3 +20,5 @@ resources:
   - db-deployment.yaml
   - quarkus-secret.yaml
   - kafka-consumer.yaml
+  - kafka-cluster.yaml
+  - kafka-topic.yaml

@@ -41,14 +41,7 @@ spec:
       }
     name: MessageAPI.java
   traits:
-    3scale:
-      configuration:
-        auto: true
-        enabled: true
     builder:
       configuration:
         properties:
         - quarkus.datasource.camel.db-kind = mysql
-    jolokia:
-      configuration:
-        enabled: true

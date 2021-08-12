@@ -45,3 +45,8 @@ spec:
       configuration:
         properties:
         - quarkus.datasource.camel.db-kind = mysql
+    knative:
+      configuration:
+        enabled: false
+        
+      

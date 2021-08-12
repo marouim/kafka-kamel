@@ -17,7 +17,7 @@ spec:
           version: 1.0.0
           description: A brand new API with no content.  Go nuts!
       paths:
-          /readdb:
+          /api/messages:
               get:
                   responses:
                       '200':

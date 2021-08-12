@@ -23,3 +23,4 @@ resources:
   - kafka-cluster.yaml
   - kafka-topic.yaml
   - message-api-integration.yaml
+  - message-api-service.yaml

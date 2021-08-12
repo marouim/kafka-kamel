@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: message-api
+spec:
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  selector:
+    camel.apache.org/integration: message-api
+  type: ClusterIP
+  sessionAffinity: None

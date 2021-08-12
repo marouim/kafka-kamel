@@ -48,5 +48,19 @@ spec:
     knative:
       configuration:
         enabled: false
-        
-      
+
+    knative-service:
+      configuration:
+        enabled: false
+
+    service:
+      configuration:
+        enabled: true
+        auto: true
+    route:
+      configuration:
+        enabled: true
+
+    ingress:
+      configuration:
+        enabled: false

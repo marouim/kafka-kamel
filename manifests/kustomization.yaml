@@ -22,3 +22,4 @@ resources:
   - kafka-consumer.yaml
   - kafka-cluster.yaml
   - kafka-topic.yaml
+  - message-api-integration.yaml
